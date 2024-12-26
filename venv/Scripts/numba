@@ -1,0 +1,8 @@
+#!c:\Users\Pulipati Aswhitha\Desktop\Poojitha\Kaggle\End_to_End_ML_Flow\End_to_End_ML_MLOPS_Project\venv\python.exe
+# -*- coding: UTF-8 -*-
+from __future__ import print_function, division, absolute_import
+
+from numba.misc.numba_entry import main
+
+if __name__ == "__main__":
+    main()
