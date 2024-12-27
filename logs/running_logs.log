@@ -278,3 +278,99 @@ x================================x]
 [2024-12-26 20:10:56,848: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
 
 x==========x]
+[2024-12-27 17:37:55,986: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-27 17:37:56,004: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-27 17:37:56,006: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-27 17:37:56,006: INFO: common: created directory at: artifacts]
+[2024-12-27 17:37:56,006: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-27 17:45:35,246: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-27 17:45:35,246: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-27 17:45:35,246: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-27 17:45:35,246: INFO: common: created directory at: artifacts]
+[2024-12-27 17:45:35,246: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-27 17:49:40,220: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-27 17:49:40,223: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-27 17:49:40,227: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-27 17:49:40,231: INFO: common: created directory at: artifacts]
+[2024-12-27 17:49:40,235: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-27 17:49:49,748: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-27 17:49:49,765: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-27 17:49:49,781: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-27 17:49:49,781: INFO: common: created directory at: artifacts]
+[2024-12-27 17:49:49,781: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-27 17:51:29,496: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-27 17:51:29,499: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-27 17:51:29,503: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-27 17:51:29,503: INFO: common: created directory at: artifacts]
+[2024-12-27 17:51:29,503: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-27 17:52:05,515: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-27 17:52:05,518: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-27 17:52:05,527: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-27 17:52:05,527: INFO: common: created directory at: artifacts]
+[2024-12-27 17:52:05,533: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-27 18:08:29,042: INFO: main: >>>stageData Ingestion Stage started<<<<<<]
+[2024-12-27 18:08:29,042: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-27 18:08:29,042: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-27 18:08:29,042: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-27 18:08:29,095: INFO: common: created directory at: artifacts]
+[2024-12-27 18:08:29,095: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-27 18:08:41,826: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: EBC4:3DA8FE:2828AF:3B1987:676E9FD1
+Accept-Ranges: bytes
+Date: Fri, 27 Dec 2024 12:38:42 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100028-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1735303122.813805,VS0,VE279
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: bfc9cc12d31bd871140800a6913708e1a7c85500
+Expires: Fri, 27 Dec 2024 12:43:42 GMT
+Source-Age: 0
+
+]
+[2024-12-27 18:08:41,866: INFO: main: >>>stageData Ingestion Stage completed<<<<<<
+
+x================================x]
+[2024-12-27 18:08:41,866: INFO: main: >>>stageData Validation Stage started<<<<<<]
+[2024-12-27 18:08:41,877: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-27 18:08:41,881: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-27 18:08:41,883: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-27 18:08:41,884: INFO: common: created directory at: artifacts]
+[2024-12-27 18:08:41,885: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-27 18:08:41,897: INFO: main: >>>stageData Validation Stage completed<<<<<<
+
+x================================x]
+[2024-12-27 18:08:41,898: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2024-12-27 18:08:41,901: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-27 18:08:41,901: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-27 18:08:41,905: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-27 18:08:41,906: INFO: common: created directory at: artifacts]
+[2024-12-27 18:08:41,932: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-27 18:08:42,010: INFO: data_transformation: Splited data into training and test sets]
+[2024-12-27 18:08:42,010: INFO: data_transformation: (1199, 12)]
+[2024-12-27 18:08:42,010: INFO: data_transformation: (400, 12)]
+[2024-12-27 18:08:42,010: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2024-12-27 18:08:42,010: INFO: main: >>>>>> stage Model training Stage started <<<<<<]
+[2024-12-27 18:08:42,010: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-27 18:08:42,010: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-27 18:08:42,020: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-27 18:08:42,021: INFO: common: created directory at: artifacts]
+[2024-12-27 18:08:42,032: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-27 18:08:42,050: INFO: main: >>>>>> stage Model training Stage completed <<<<<<
+
+x==========x]
